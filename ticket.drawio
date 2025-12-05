@@ -1,9 +1,82 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.4">
   <diagram name="Страница-1" id="KpScOeqkreCN9uWN3cl0">
-    <mxGraphModel>
+    <mxGraphModel dx="1869" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="BheF4HGnzOUeQy3S67un-1" parent="1" style="ellipse;fillColor=strokeColor;" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="225" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BheF4HGnzOUeQy3S67un-2" parent="1" style="rounded=1;arcSize=20;strokeWidth=2" value="Idle" vertex="1">
+          <mxGeometry height="40" width="43" x="211" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="BheF4HGnzOUeQy3S67un-3" parent="1" style="rounded=1;arcSize=20;strokeWidth=2" value="WaitingForMoney" vertex="1">
+          <mxGeometry height="40" width="138" x="393" y="198" as="geometry" />
+        </mxCell>
+        <mxCell id="BheF4HGnzOUeQy3S67un-4" parent="1" style="rounded=1;arcSize=20;strokeWidth=2" value="MoneyReceived" vertex="1">
+          <mxGeometry height="40" width="125" x="320" y="312" as="geometry" />
+        </mxCell>
+        <mxCell id="BheF4HGnzOUeQy3S67un-5" parent="1" style="rounded=1;arcSize=20;strokeWidth=2" value="TicketDispensed" vertex="1">
+          <mxGeometry height="40" width="132" x="20" y="426" as="geometry" />
+        </mxCell>
+        <mxCell id="BheF4HGnzOUeQy3S67un-6" parent="1" style="rounded=1;arcSize=20;strokeWidth=2" value="TransactionCanceled" vertex="1">
+          <mxGeometry height="40" width="164" x="301" y="426" as="geometry" />
+        </mxCell>
+        <mxCell id="BheF4HGnzOUeQy3S67un-7" edge="1" parent="1" source="BheF4HGnzOUeQy3S67un-1" style="curved=1;startArrow=none;;exitX=0.52;exitY=1;entryX=0.49;entryY=0;rounded=0;" target="BheF4HGnzOUeQy3S67un-2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BheF4HGnzOUeQy3S67un-8" edge="1" parent="1" source="BheF4HGnzOUeQy3S67un-2" style="curved=1;startArrow=none;;exitX=0.99;exitY=0.63;entryX=0.5;entryY=0;rounded=0;" target="BheF4HGnzOUeQy3S67un-3" value="выбрать билет">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="462" y="161" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BheF4HGnzOUeQy3S67un-9" edge="1" parent="1" source="BheF4HGnzOUeQy3S67un-3" style="curved=1;startArrow=none;;exitX=0.3;exitY=1;entryX=0.51;entryY=0;rounded=0;" target="BheF4HGnzOUeQy3S67un-4" value="внесена нужная сумма">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="383" y="275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BheF4HGnzOUeQy3S67un-10" edge="1" parent="1" source="BheF4HGnzOUeQy3S67un-4" style="curved=1;startArrow=none;;exitX=0;exitY=0.86;entryX=0.63;entryY=0;rounded=0;" target="BheF4HGnzOUeQy3S67un-5" value="выдать билет">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="133" y="389" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BheF4HGnzOUeQy3S67un-11" edge="1" parent="1" source="BheF4HGnzOUeQy3S67un-3" style="curved=1;startArrow=none;;exitX=0.61;exitY=1;entryX=0.77;entryY=0;rounded=0;" target="BheF4HGnzOUeQy3S67un-6" value="отмена">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="507" y="275" />
+              <mxPoint x="507" y="389" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BheF4HGnzOUeQy3S67un-12" edge="1" parent="1" source="BheF4HGnzOUeQy3S67un-4" style="curved=1;startArrow=none;;exitX=0.51;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="BheF4HGnzOUeQy3S67un-6" value="отмена">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BheF4HGnzOUeQy3S67un-13" edge="1" parent="1" source="BheF4HGnzOUeQy3S67un-5" style="curved=1;startArrow=none;;exitX=0.41;exitY=0;entryX=0;entryY=0.67;rounded=0;" target="BheF4HGnzOUeQy3S67un-2" value="завершение операции">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="51" y="389" />
+              <mxPoint x="51" y="161" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BheF4HGnzOUeQy3S67un-14" edge="1" parent="1" source="BheF4HGnzOUeQy3S67un-6" style="curved=1;startArrow=none;;exitX=0.14;exitY=0;entryX=0.36;entryY=1;rounded=0;" target="BheF4HGnzOUeQy3S67un-2" value="сброс / тайм-аут">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="216" y="389" />
+              <mxPoint x="216" y="161" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
